@@ -1,0 +1,9 @@
+Create a Folder in the "C:\" called "Game" and put the .BAS and/or .EXE files in it.
+To Compile the .BAS files you must install QB64.
+Anti-Virus may block the .EXE, they have no License.
+
+-Game Code by @TheXadGaming
+-Map Editor(Not in Repository) by @James65
+
+Feel Free to look at and use the code for your own use.
+If your making this code public please Credit @TheXadGaming, Unless altered.
