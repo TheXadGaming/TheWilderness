@@ -305,13 +305,6 @@ Sub DisplayMenu (Menu$)
             Next B
         Next A
         If Resource$ = "" Then: MapY = TmpY: Exit Sub
-
-        Valid = ((ToolLevels(FishingRodLevel) > 0) And (ToolLevels(PickaxeLevel) > 0))
-        If Not Valid Then
-            Text$ = "Wrong Tools!"
-            If Ore$ <> "" Then: Text$ = "Better Pickaxe Needed!"
-            //prnit text$ above player and exit sub!
-        End If
         GatherTimer = 1
         Randomize (Timer)
         GatheredItems = 0
@@ -694,3 +687,4 @@ End Sub
 
 '$include: 'keyname.bas'
 '$Include: 'cmdstuff.bas'
+
